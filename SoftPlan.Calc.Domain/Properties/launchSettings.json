@@ -1,0 +1,9 @@
+{
+  "profiles": {
+    "SoftPlan.Calc.Domain": {
+      "commandName": "Project",
+      "sqlDebugging": true,
+      "nativeDebugging": true
+    }
+  }
+}

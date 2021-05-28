@@ -1,0 +1,57 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>SoftPlan.Calc.Services.Api</name>
+    </assembly>
+    <members>
+        <member name="M:Softplan.Calc.Services.Api.App.CalcularJuros.CalculaJurosCommandHandlers.Handle(Softplan.Calc.Services.Api.App.CalcularJuros.CalculaJurosCommand,System.Threading.CancellationToken)">
+            <summary>
+            Calcula juros compostos
+            </summary>
+            <param name="message"><see cref="T:System.Threading.CancellationToken"/></param>
+            <param name="cancellationToken"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Softplan.Calc.Services.Api.App.DomainNotificationHandler">
+            <summary>
+            Pattern de notificação
+            </summary>
+        </member>
+        <member name="M:SoftPlan.Calc.Services.Api.Controllers.CalcularJurosController.CalculaJuros(System.Decimal,System.Int32)">
+            <summary>
+            Cálculo em memória de juros compostos
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:SoftPlan.Calc.Services.Api.Controllers.CalcularJurosController.ShowMeTheCode">
+            <summary>
+            Show me the code
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:SoftPlan.Calc.Services.Api.Controllers.ResultMessageResponse`1.#ctor(`0,System.String[])">
+            <summary>
+            
+            </summary>
+            <param name="data"></param>
+            <param name="errors"></param>
+        </member>
+        <member name="M:SoftPlan.Calc.Services.Api.Controllers.ResultMessageResponse`1.op_Implicit(`0)~SoftPlan.Calc.Services.Api.Controllers.ResultMessageResponse{`0}">
+            <summary>
+            
+            </summary>
+            <param name="value"></param>
+        </member>
+        <member name="M:SoftPlan.Calc.Services.Api.Controllers.TaxaJurosController.ObterTaxaDeJuros">
+            <summary>
+            Obtem taxa de juros
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:SoftPlan.Calc.Services.Api.Extensions.ApplicationBuilderExtensionsSwagger">
+            <summary>
+            
+            </summary>
+        </member>
+    </members>
+</doc>
